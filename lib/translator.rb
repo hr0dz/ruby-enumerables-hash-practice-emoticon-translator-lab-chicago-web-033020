@@ -32,5 +32,6 @@ end
 
 def get_english_meaning(fp, emo)
   hash = load_library(fp)
+  final = hash["get_meaning"][emo]
   # code goes here
 end

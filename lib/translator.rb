@@ -21,6 +21,9 @@ end
 def get_japanese_emoticon(fp, emo)
   hash = load_library(fp)
   final = hash["get_emoticon"][emo]
+  
+if final == nil
+  
   # code goes here
 end
 

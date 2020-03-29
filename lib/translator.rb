@@ -8,7 +8,7 @@ emoticons = YAML.load_file(fp)
 hash = {"get_emoticon" => {}}
 hash = {"get_meaning" => {}}
 
-emoticons.each do |eng, emos
+emoticons.each do |eng, emos|
  
   # code goes here
 end

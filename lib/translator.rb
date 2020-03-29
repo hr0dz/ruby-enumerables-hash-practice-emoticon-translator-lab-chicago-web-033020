@@ -12,6 +12,7 @@ emoticons.each do |eng, emos|
   hash["get_emoticon"][emos.first] = emos.last
  hash["get_english_meaning"][emos.last] = eng
  end
+ hash
   # code goes here
 end
 

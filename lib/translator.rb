@@ -19,7 +19,7 @@ emoticons.each do |eng, emos|
 end
 
 def get_japanese_emoticon(fp, emo)
-  
+  hash = load_library(fp)
   # code goes here
 end
 

@@ -4,6 +4,7 @@ require 'pry'
 
 def load_library(fp)
 hash = {}
+
 emoticons = YAML.load_file(fp)
 
 hash["get_emoticon"] = {}

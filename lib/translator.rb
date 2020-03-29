@@ -35,5 +35,6 @@ def get_english_meaning(fp, emo)
   final = hash["get_meaning"][emo]
   if final == nil
     final = "Sorry, that emoticon was not found"
+  end
   # code goes here
 end

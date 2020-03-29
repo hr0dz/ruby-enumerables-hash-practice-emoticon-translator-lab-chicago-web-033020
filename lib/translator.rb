@@ -33,5 +33,7 @@ end
 def get_english_meaning(fp, emo)
   hash = load_library(fp)
   final = hash["get_meaning"][emo]
+  if final == nil
+    final = "Sorry, that emoticon was not found"
   # code goes here
 end

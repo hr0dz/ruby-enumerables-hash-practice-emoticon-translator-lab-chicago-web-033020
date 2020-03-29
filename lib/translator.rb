@@ -6,8 +6,7 @@ def load_library(fp)
 
 emoticons = YAML.load_file(fp)
 hash = {}
-hash = {"get_emoticon" => {}}
-hash = {"get_meaning" => {}}
+hash["get_emoticon"] = {}
 
 emoticons.each do |eng, emos|
   hash["get_emoticon"][emos.first] = emos.last

@@ -1,6 +1,15 @@
+require 'yaml'
 # require modules here
 
-def load_library
+def load_library(fp)
+hash = {}
+  
+emoticons = YAML.load_file(fp)
+hash = {"get_emoticon" => {}}
+hash = {"get_meaning" => {}}
+
+emoticons.each do |eng
+ 
   # code goes here
 end
 

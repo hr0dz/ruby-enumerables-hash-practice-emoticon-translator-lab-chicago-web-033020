@@ -23,6 +23,7 @@ def get_japanese_emoticon(fp, emo)
   final = hash["get_emoticon"][emo]
   
 if final == nil
+  final = "Sorry, that emoticon was not found"
   
   # code goes here
 end

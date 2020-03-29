@@ -9,6 +9,7 @@ hash = {"get_emoticon" => {}}
 hash = {"get_meaning" => {}}
 
 emoticons.each do |eng, emos|
+  hash["get_emoticon"][emos.first]
  
   # code goes here
 end

@@ -18,7 +18,7 @@ emoticons.each do |eng, emos|
   # code goes here
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(fp, emo)
   # code goes here
 end
 

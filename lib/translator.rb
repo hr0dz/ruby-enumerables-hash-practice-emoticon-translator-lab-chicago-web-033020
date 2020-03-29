@@ -24,6 +24,7 @@ def get_japanese_emoticon(fp, emo)
   
 if final == nil
   final = "Sorry, that emoticon was not found"
+end
   
   # code goes here
 end

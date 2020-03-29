@@ -2,9 +2,9 @@ require 'yaml'
 # require modules here
 
 def load_library(fp)
-hash = {}
-  
+
 emoticons = YAML.load_file(fp)
+hash = {}
 hash = {"get_emoticon" => {}}
 hash = {"get_meaning" => {}}
 
